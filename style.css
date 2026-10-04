@@ -1,0 +1,203 @@
+html,body{
+  height:100%;
+  margin:0;
+  background:#f3f1ee
+}
+body{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden
+}
+#wrap{
+  width:470px;
+  height:570px;
+  flex:none;
+  transform-origin:center
+}
+#s{
+  position:relative;
+  width:470px;
+  height:570px
+}
+#s *{
+  position:absolute;
+  box-sizing:border-box
+}
+
+.ear{background:#000}
+.ear i{inset:0;background:#fff}
+.hair{background:#3a2a1f}
+.line{background:#8a8179;border-radius:50%;opacity:.85}
+
+.orelhae{
+  left:36px;
+  top:30px;
+  width:100px;
+  height:140px;
+  clip-path:polygon(50% 0,0 95%,100% 70%)
+}
+.orelhaef{
+  clip-path:polygon(50% 5%,6% 92%,95% 69%)
+}
+.orelhad{
+  left:330px;
+  top:30px;
+  width:100px;
+  height:100px;
+  clip-path:polygon(100% 0,0 75%,70% 100%)
+}
+.orelhadf{
+  clip-path:polygon(97% 4%,6% 74%,68% 96%)
+}
+
+.corpo{
+  left:142px;
+  top:330px;
+  width:200px;
+  height:260px;
+  background:#fff;
+  border:3px solid #000;
+}
+
+.cabeloe{
+  left:8px;
+  top:150px;
+  width:175px;
+  height:380px;
+  border-radius:50px 50px 0 0;
+  transform:rotate(-2deg)
+}
+.cabelod{
+  left:285px;
+  top:170px;
+  width:160px;
+  height:360px;
+  border-radius:50px 50px 0 0}
+.topo{
+  left:50px;
+  top:50px;
+  width:350px;
+  height:200px;
+  border-radius:50%
+}
+
+.rosto{
+  left:82px;
+  top:112px;
+  width:310px;
+  height:262px;
+  background:#fff;
+  border:3px solid #000;
+  border-radius:48% 48% 50% 50%/42% 42% 58% 58%
+}
+
+.olhoe{
+  left:136px;
+  top:210px;
+  width:60px;
+  height:60px;
+  background:#000;
+  border-radius:0 0 100px 100px;
+}
+.olhod{
+  left:272px;
+  top:210px;
+  width:60px;
+  height:60px;
+  background:#000;
+  border-radius:0 0 100px 100px;
+}
+
+.ocue{
+  left:100px;
+  top:184px;
+  width:112px;
+  height:112px;
+  border:5px solid #000;
+  border-radius:50%
+}
+.ocud{
+  left:250px;
+  top:190px;
+  width:112px;
+  height:112px;
+  border:5px solid #000;
+  border-radius:50%
+}
+.risco{
+  left:208px;
+  top:224px;
+  width:46px;
+  height:5px;
+  background:#000;
+  border-radius:3px;
+}
+
+.nariz{
+  left:210px;
+  top:276px;
+  width:24px;
+  height:5px;
+  background:#000;
+  border-radius:50%
+}
+.bocae{
+  left:187px;
+  top:305px;
+  width:47px;
+  height:26px;
+  border:4px solid #000;
+  border-top:0;
+  border-radius:0 0 50px 50px
+}
+.bocad{
+  left:232px;
+  top:305px;
+  width:47px;
+  height:26px;
+  border:4px solid #000;
+  border-top:0;
+  border-radius:0 0 50px 50px
+}
+
+.boche{
+  left:100px;
+  top:287px;
+  width:28px;
+  height:5px;
+  background:#e8232b;
+}
+.bochd{
+  left:345px;
+  top:287px;
+  width:28px;
+  height:5px;
+  background:#e8232b;
+}
+
+.franja1{
+  left:150px;
+  top:60px;
+  width:240px;
+  height:140px;
+  border-radius:70px 70px 30px 120px / 60px 90px 130px 90px;
+  transform:rotate(14deg)
+}
+.franja2{
+  left:58px;
+  top:100px;
+  width:90px;
+  height:190px;
+  border-radius:70px 20px 10px 60px / 70px 20px 10px 60px;
+  transform:rotate(-6deg)
+}
+.franja3{
+  left:150px;
+  top:100px;
+  width:50px;
+  height:70px;
+  border-radius:40px 10px 0 30px;
+  transform:rotate(-8deg);
+  clip-path:polygon(0 0,100% 0,60% 100%,0 70%)
+}
